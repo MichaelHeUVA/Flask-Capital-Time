@@ -14,6 +14,12 @@ For example, running this code locally and to get the time of London you need to
 http://127.0.0.1:5001/time?city=London
 ```
 
+To test the api on GCP you need to use this endpoint with the correct access token:
+
+```
+http://34.28.174.149:5001/time?city=London
+```
+
 Run client.py to test the api.
 
 ```
