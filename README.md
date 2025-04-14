@@ -20,6 +20,10 @@ To test the api on GCP you need to use this endpoint with the correct access tok
 http://34.28.174.149:5001/time?city=London
 ```
 
+```bash
+curl -H "Authorization: Bearer supersecrettoken123" "http://34.28.174.149:5001/time?city=London"
+```
+
 Run client.py to test the api.
 
 ```
